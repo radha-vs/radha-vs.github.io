@@ -1,0 +1,66 @@
+/* Font & base */
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #f9f6f1;
+  color: #3a2e2e;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #3a2e2e;
+}
+
+a {
+  color: #6b4226;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+  background-color: #e0d5c3;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+/* Main content */
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ccc;
+  margin-top: 3rem;
+}
+
+/* Optional gallery styling */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.gallery img {
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+.gallery img:hover {
+  transform: scale(1.03);
+}
